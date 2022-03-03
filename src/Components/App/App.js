@@ -1,12 +1,23 @@
+import React from 'react';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <h1>Hello World!</h1>
-      <button className='button'>Click me!</button>
-    </div>
-  );
+class App extends React.Component {
+  render() {
+    return (
+      <div>
+        <h1>
+          Ja<span className='highlight'>mmm</span>ing
+        </h1>
+        <div class='App'>
+          {/* <SearchBar /> */}
+          <div className='App-playlist'>
+            {/* <SearchResults /> */}
+            {/* <Playlist /> */}
+          </div>
+        </div>
+      </div>
+    );
+  }
 }
 
 export default App;
